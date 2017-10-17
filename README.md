@@ -5,10 +5,22 @@
 
 
 ### Edited version for personal bugfixes
-Changed line 7 in /cordova-plugin-fcm/src/android/FCMPlugin.gradle from
-classpath 'com.android.tools.build:gradle:+'
+Changed line 6 and 7 in /cordova-plugin-fcm/src/android/FCMPlugin.gradle to
+
+        classpath 'com.android.tools.build:gradle:+'
+        classpath 'com.google.gms:google-services:3.1.0'
+        
+Changed line 68,69 from
+
+        <framework src="com.google.firebase:firebase-core:+" />
+        <framework src="com.google.firebase:firebase-messaging:+" />
 to
-classpath 'com.android.tools.build:gradle:2.3.3'
+
+        <framework src="com.google.firebase:firebase-core:9.0.0" />
+        <framework src="com.google.firebase:firebase-messaging:9.0.0" />
+
+
+
 
 #### Version 2.1.2 (03/06/2017)
 - Tested on Android and iOS using Cordova cli 6.4.0, Cordova android 6.0.0 and Cordova ios 4.3.1
