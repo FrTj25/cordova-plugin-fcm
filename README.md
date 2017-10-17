@@ -3,6 +3,13 @@
 
 >[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VF654BMGUPQTJ)
 
+
+### Edited version for personal bugfixes
+Changed line 7 in /cordova-plugin-fcm/src/android/FCMPlugin.gradle from
+classpath 'com.android.tools.build:gradle:+'
+to
+classpath 'com.android.tools.build:gradle:9.0.0'
+
 #### Version 2.1.2 (03/06/2017)
 - Tested on Android and iOS using Cordova cli 6.4.0, Cordova android 6.0.0 and Cordova ios 4.3.1
 - Available sdk functions: onTokenRefresh, getToken, subscribeToTopic, unsubscribeFromTopic and onNotification
