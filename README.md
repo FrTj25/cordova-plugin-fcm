@@ -8,7 +8,7 @@
 Changed line 7 in /cordova-plugin-fcm/src/android/FCMPlugin.gradle from
 classpath 'com.android.tools.build:gradle:+'
 to
-classpath 'com.android.tools.build:gradle:9.0.0'
+classpath 'com.android.tools.build:gradle:2.3.3'
 
 #### Version 2.1.2 (03/06/2017)
 - Tested on Android and iOS using Cordova cli 6.4.0, Cordova android 6.0.0 and Cordova ios 4.3.1
